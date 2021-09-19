@@ -5,36 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test stranica</title>
-    <style>
-        .istaknuto {
-            color:red; 
-            font-weight: bold;
-        }
-        .podvuceno {
-            text-decoration: underline;
-        }
-    </style>
+   <style>
+       .holder {
+        display: flex;
+        width: 300px;
+        height: 100px;
+       }
+
+       .kvadrat {
+        border: 2px solid black;
+        flex-grow: 1;       
+       }
+       .red {
+        background-color: red;
+       }
+       .green {
+        background-color: green;
+       }
+       .blue {
+           background-color: blue;
+       }
+   </style>
 </head>
 <body>
-   <!-- <p>Lorem ipsum, <b>dolor sit amet consectetur</b> adipisicing elit. 
-        Cumque fuga ad aliquam repudiandae minima. <i>Excepturi, minus.</i>
-        <strong> hic minus unde </strong>accusantium eum repellendus aliquam
-        <em>eveniet dolorem</em> maiores deserunt, <ins>accusamus id, commodi</ins>
-        saepe <del>doloremque</del> dignissimos consequuntur iste ipsa officia? 
-        <mark> ipsum dolor sit </mark>amet consectetur <u>elit.</u>  Quis, minus.
-        Voluptatem, quasi? <small> ipsum dolor</small> sit amet consectetur adipisicing elit.
-        Optio distinctio earum neque blanditiis ratione harum a velit, reiciendis
-         dicta enim. 1m<sup>2</sup>. H<sub>2</sub>o.
-    </p>-->
-      <p><span style="color:red ; font-weight: bold;">lipsum ipsum</span> , dolor sit amet
-         consectetur adipisicing elit. Modi sequi magnam,
-           quos omnis <span style="text-decoration: underline;"> numquam soluta provident
-             eveniet iste </span>eligendi voluptates  est dicta ab laborum reiciendis rem 
-             ex itaque, maiores officia iusto cum minima aperiam nisi earum. Dolore, dolores 
-             numquam? <span class="istaknuto">Lorem ipsum dolor sit </span> amet consectetur
-             , adipisicing elit. Totam   ullam dolorum cum assumenda quas! 
-              <span class="podvuceno"> quae. Facere assumenda </span>voluptatem.
-    </p>
-    
+
+<div class="holder">
+    <div class="kvadrat red">A</div>
+    <div class="kvadrat green">B</div>
+    <div class="kvadrat blue">C</div>
+</div>
+
 </body>
 </html>
