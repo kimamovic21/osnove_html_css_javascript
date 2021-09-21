@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test stranica</title>
    <style>
+       .tekst {
+           font-size: 22px;
+           font-weight: bold;
+           color: darkblue;
+       }
        .holder {
         display: flex;
         width: 300px;
         height: 100px;
+        position: absolute; /*tekst ce pokriti*/
+        left: 0px;
+        top: 0px;
        }
 
        .kvadrat {
@@ -17,22 +25,28 @@
         flex-grow: 1;       
        }
        .red {
-        background-color: red;
+        background-color: rgba(255, 0, 0, 50%); 
+        /*rgba boje, a(alfa) - prozirnost*/
+        /*background-color: rgb(255, 0, 0); rgb boje*/
        }
        .green {
-        background-color: green;
+        background-color: #008000D3; /*zadnja dva broja predstavljaju prozirnost*/
+        /*background-color: #008000; heksadecimalni zapis boja*/
        }
        .blue {
-           background-color: blue;
+        background-color: hsl(240, 100%, 50%, 50%); /*hsla boje, a(alfa) - prozirnost*/
+           /*background-color: hsl(240, 100%, 50%); hsl boje*/
        }
    </style>
 </head>
 <body>
-
+<div class="tekst">
+    Lorem ipsum dolor sit amet consectetur.
+</div>
 <div class="holder">
-    <div class="kvadrat red">A</div>
-    <div class="kvadrat green">B</div>
-    <div class="kvadrat blue">C</div>
+    <div class="kvadrat red"></div>
+    <div class="kvadrat green"></div>
+    <div class="kvadrat blue"></div>
 </div>
 
 </body>
