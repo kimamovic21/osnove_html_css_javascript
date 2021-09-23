@@ -1,53 +1,39 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test stranica</title>
-   <style>
-       .tekst {
-           font-size: 22px;
-           font-weight: bold;
-           color: darkblue;
-       }
-       .holder {
-        display: flex;
-        width: 300px;
-        height: 100px;
-        position: absolute; /*tekst ce pokriti*/
-        left: 0px;
-        top: 0px;
-       }
-
-       .kvadrat {
-        border: 2px solid black;
-        flex-grow: 1;       
-       }
-       .red {
-        background-color: rgba(255, 0, 0, 50%); 
-        /*rgba boje, a(alfa) - prozirnost*/
-        /*background-color: rgb(255, 0, 0); rgb boje*/
-       }
-       .green {
-        background-color: #008000D3; /*zadnja dva broja predstavljaju prozirnost*/
-        /*background-color: #008000; heksadecimalni zapis boja*/
-       }
-       .blue {
-        background-color: hsl(240, 100%, 50%, 50%); /*hsla boje, a(alfa) - prozirnost*/
-           /*background-color: hsl(240, 100%, 50%); hsl boje*/
-       }
-   </style>
+    <link rel="stylesheet" href="main.css">
+    <title>Web stranice</title>
 </head>
 <body>
-<div class="tekst">
-    Lorem ipsum dolor sit amet consectetur.
-</div>
-<div class="holder">
-    <div class="kvadrat red"></div>
-    <div class="kvadrat green"></div>
-    <div class="kvadrat blue"></div>
-</div>
-
+    <div class="header">
+        <div class="column">
+           <div>Gornji red</div>
+           <div>Donji red</div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="column">2</div>
+    </div>
+    <div class="page">
+        <div class="column">3</div>
+    </div>
+    <div class="page">
+        <div class="column">4</div>
+    </div>
+    <div class="page">
+        <div class="column">5</div>
+    </div>
+    <div class="page">
+        <div class="column">6</div>
+    </div>
+    <div class="page">
+        <div class="column">7</div>
+    </div>
+    <div class="footer">
+        <div class="column">8</div>
+    </div>
 </body>
 </html>
