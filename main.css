@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .header {
+    border: 1px solid black;
+}
+
+.page {
+    border: 1px solid black;
+}
+
+.footer {
+    border: 1px solid black;
+} */
+
+.column {
+    border: 1px solid black;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.page .column {
+    /* height: 400px; */
+    height: 100vh;
+}
