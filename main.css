@@ -1,13 +1,13 @@
-body {
+body { /*2. stiliziramo*/
     margin: 0px;
     padding: 0px;
 }
 
-/* .header {
-    border: 1px solid black;
+ .header { /*19. stiliziramo i otvaramo html fajl*/
+    border-bottom: 2px solid #dc0101;
 }
 
-.page {
+/*.page {
     border: 1px solid black;
 }
 
@@ -15,13 +15,57 @@ body {
     border: 1px solid black;
 } */
 
-.column {
-    border: 1px solid black;
-    width: 800px;
+.column {/*3. stiliziramo*/
+    /*border: 1px solid black;*/  /*22. stavljamo pod komentar*/
+    width: 1000px;
     margin: 0px auto;
 }
 
-.page .column {
-    /* height: 400px; */
+.page .column { /*4. stiliziramo i otvaramo html fajl*/
     height: 100vh;
 }
+
+
+#logo-i-social { /*7. stiliziramo*/
+    display: flex;
+}
+
+#logo-holder { /*8. stiliziramo*/
+    flex-grow: 1; /*zauzimat ce pola rasplozive sirine diva*/
+}
+
+#social-holder { /*9. stiliziramo i otvaramo html fajl*/
+    flex-grow: 1;
+    text-align: right;
+}
+
+#social-holder a { /*23.stiliziramo*/
+    text-decoration: none;
+}
+
+#social-holder a img {/*22.stiliziramo*/
+    padding: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#main-menu { /*14. stiliziramo*/
+   display: flex;
+}
+
+#main-menu a { /*15. stiliziramo*/
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 400ms;
+}
+
+#main-menu a:hover, /*16. stiliziramo i otvaramo html fajl*/
+#main-menu a.active{ /*18. dodajemo a.active*/
+     background: #dc0101;
+     color: #fff;
+}
+
