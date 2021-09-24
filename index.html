@@ -8,12 +8,42 @@
     <title>Web stranice</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header"><!--1. dodajemo vise div elemenata i otvaramo main.css fajl-->
         <div class="column">
-           <div>Gornji red</div>
-           <div>Donji red</div>
-        </div>
-    </div>
+              <div id="logo-i-social"><!--5. dodajemo div logo-social i unutar njega dva div-a-->
+                <!--6. otvaramo main.css fajl-->
+                  <div id="logo-holder"> <!--10. dodajemo div i img elemente-->
+                      <img alt="Loading logo..." 
+                      src="assets/img/logo.svg"> <!--20. uredujemo src atribut-->
+                  </div>
+                  <div id="social-holder"> <!--11. dodajemo div i a elemente-->
+                      <a href="#"> <!--21. uredujemo href atribute i otvaramo css fajl-->
+                            <img alt="Facebook" src="/assets/img/facebook.svg">
+                      </a>
+                      <a href="#">
+                            <img alt="Twitter" src="/assets/img/twitter.svg">
+                      </a>
+                      <a href="#">
+                            <img alt="Behance" src="/assets/img/behance.svg">
+                      </a>
+                      <a href="#">
+                           <img alt="Instagram" src="/assets/img/instagram.svg">
+                      </a>
+                  </div>
+              </div><!--logo-i-social-->
+           <nav id="main-menu"> <!--12. dodajemo element navigacioni meni i linkove-->
+              <!--13. otvaramo css fajl-->
+                <a href="#" class="active">Pocetna</a> <!--17. dodajemo klasu-->
+                <a href="#">O nama</a>
+                <a href="#">Usluge</a>
+                <a href="#">Proizvodi</a>
+                <a href="#">Karijera</a>
+                <a href="#">Kontakt</a>
+           </nav>
+         
+        </div><!--column-->
+    </div><!--header-->
+
     <div class="page">
         <div class="column">2</div>
     </div>
