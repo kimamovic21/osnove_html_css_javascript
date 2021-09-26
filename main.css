@@ -64,8 +64,40 @@ body { /*2. stiliziramo*/
 }
 
 #main-menu a:hover, /*16. stiliziramo i otvaramo html fajl*/
-#main-menu a.active{ /*18. dodajemo a.active*/
+#main-menu a.active{ /*18. dodajemo a.active i otvaramo html fajl*/
      background: #dc0101;
      color: #fff;
 }
 
+#pocetna {/*20. stiliziramo*/
+    text-align: center;
+    color:#fff;
+    background: url('../assets/img/pozadine/bg01.jpg'); /*23. dodajemo pozadinu*/
+    background-size: cover;
+    background-attachment: fixed; /*25. dodajemo i otvaramo html fajl*/
+}
+
+#pocetna h1 {/*21. stiliziramo*/
+    font-size: 48pt;
+    margin-top: 0px; /*24. dodajemo marginu i padiranje*/
+    padding-top: calc(50vh - 250px);
+}
+
+.dark-box {/*22. stiliziramo*/
+    background-color: #33333350;
+    border: 1px solid #fff;
+    font-size: 24pt;
+    padding: 40px;
+}
+
+#usluge {/*28. stiliziramo i otvaramo html fajl*/
+    background: url('../assets/img/pozadine/bg02.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#karijera {/*32. stiliziramo*/
+    background: url('../assets/img/pozadine/bg03.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+}
