@@ -72,7 +72,7 @@ body { /*2. stiliziramo*/
 #pocetna {/*20. stiliziramo*/
     text-align: center;
     color:#fff;
-    background: url('../assets/img/pozadine/bg01.jpg'); /*23. dodajemo pozadinu*/
+    background: url('../osnove_html_css_javascript/assets/img/pozadine/bg01.jpg'); /*23. dodajemo pozadinu*/
     background-size: cover;
     background-attachment: fixed; /*25. dodajemo i otvaramo html fajl*/
 }
@@ -96,8 +96,58 @@ body { /*2. stiliziramo*/
     background-attachment: fixed; 
 }
 
-#karijera {/*32. stiliziramo*/
+#karijera {/*32. stiliziramo i otvaramo html fajl*/
     background: url('../assets/img/pozadine/bg03.jpg'); 
     background-size: cover;
     background-attachment: fixed; 
+}
+
+.align-center {/*34. stiliziramo i otvaramo html fajl*/
+    text-align: center;
+}
+
+.krugovi {/*41. stiliziramo*/
+    display: flex;
+    margin: 50px 0;
+}
+
+.krug-holder {/*42. stiliziramo*/
+   flex-grow: 1;
+}
+
+.krug {/*43. stiliziramo*/
+    background: #dc0101;
+    color:#fff;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.oznaka {/*44. stiliziramo*/
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tehnologije {/*45. stiliziramo*/
+    display: flex;
+    margin: 50px 0;
+}
+
+.tehnologija {/*46. stiliziramo*/
+    flex-grow: 1;
+    text-align: center;
+}
+
+.tehnologija img {/*47. stiliziramo*/
+    width: 48px;
+    height: 48px;
+}
+
+.tehnologija p {/*48. stiliziramo*/
+   font-weight: bold;
 }
