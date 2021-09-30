@@ -151,3 +151,49 @@ body { /*2. stiliziramo*/
 .tehnologija p {/*48. stiliziramo*/
    font-weight: bold;
 }
+
+#usluge {/*51. stiliziramo*/
+    background: url('../osnove_html_css_javascript/assets/img/pozadine/bg02.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+
+#usluge h2 { /*52. stiliziramo */
+    padding-top: 40px;
+}
+
+.service-row { /*53. stiliziramo*/
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.service-row > div {/*54. stiliziramo*/
+    text-align: center;
+    position: relative;
+    width: 230px;
+    height: 260px;
+    border: 1px solid #fff;
+}
+
+.service-row > div > img {/*55. stiliziramo*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.service-row > div > p { /*56. stiliziramo*/
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #ffffffA2;
+    color:#000;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border-top: 1px solid #fff;
+}
