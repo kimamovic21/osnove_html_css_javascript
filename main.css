@@ -185,7 +185,7 @@ body { /*2. stiliziramo*/
     left: 0px;
 }
 
-.service-row > div > p { /*56. stiliziramo*/
+.service-row > div > p { /*56. stiliziramo i otvaramo html fajl*/
     position: absolute;
     left: 0px;
     right: 0px;
@@ -196,4 +196,96 @@ body { /*2. stiliziramo*/
     margin-bottom: 0px;
     font-weight: bold;
     border-top: 1px solid #fff;
+}
+
+#proizvodi h2{ /*58. stiliziramo*/
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* .page {
+    max-width: 80%;
+} */
+
+.matrica { /*59. stiliziramo i otvaramo html fajl*/
+    margin-top: 40px;
+    height: 700px;
+    display: grid;
+    grid-template: "a b c"
+                   "d b e"
+                   "f f g";
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* .matrica img {
+    width: 400px;
+    height: 400px;
+} */
+
+#proizvod-a {/*61. stiliziramo*/
+    grid-area: a;
+}
+
+#proizvod-b {
+    grid-area: b;
+}
+
+#proizvod-c {
+    grid-area: c;
+}
+
+#proizvod-d {
+    grid-area: d;
+}
+
+#proizvod-e {
+    grid-area: e;
+}
+
+#proizvod-f {
+    grid-area: f;
+}
+
+#proizvod-g {
+    grid-area: g;
+}
+
+.proizvod { /*62. stiliziramo*/
+    display: grid;
+    grid-template: "region";
+    align-content: stretch;
+    justify-content: stretch;
+}
+
+.proizvod img { /*63. stiliziramo*/
+    grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.proizvod span { /*64. stiliziramo i otvaramo html fajl*/
+    grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.proizvod .text-holder {/*65. stiliziramo*/
+    grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+    display: grid;
+    align-content: center;
+    justify-content: stretch;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #dc0101DD;
+    color: #fff;
+    opacity: 0.0;
+    transition: 500ms;
+}
+
+.proizvod:hover .text-holder{ /*66. stiliziramo*/
+    opacity: 1.0;
 }
