@@ -263,6 +263,7 @@ body { /*2. stiliziramo*/
     grid-area: region;
     justify-self: stretch;
     align-self: stretch;
+    width: 100%; /*morao sam ovdje dodati sirinu 100posto*/
 }
 
 .proizvod span { /*64. stiliziramo i otvaramo html fajl*/
