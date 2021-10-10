@@ -198,6 +198,11 @@ body { /*2. stiliziramo*/
     border-top: 1px solid #fff;
 }
 
+#proizvodi {
+  max-height: 100vh;
+  margin-bottom: 10rem; /*dodao sam donju marginu*/
+}
+
 #proizvodi h2{ /*58. stiliziramo*/
     padding-top: 50px;
     text-align: center;
@@ -287,6 +292,66 @@ body { /*2. stiliziramo*/
     transition: 500ms;
 }
 
-.proizvod:hover .text-holder{ /*66. stiliziramo*/
+.proizvod:hover .text-holder{ /*66. stiliziramo i otvaramo html fajl*/
     opacity: 1.0;
+}
+
+#karijera {/*72. stiliziramo*/
+    background: url('../osnove_html_css_javascript/assets/img/pozadine/bg03.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#karijera {
+    margin-top: 20rem; /*dodao sam gornju marginu*/
+}
+
+#karijera h2 {
+    padding-top: 50px; /*71.stiliziramo i otvaramo html fajl*/
+    text-align: center;
+}
+
+.career-columns {/*68.stiliziramo*/
+    display: flex;
+}
+
+.job-list { /*69.stiliziramo*/
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.job-descriptions {/*70.stiliziramo*/
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.job-list label { /*75. stiliziramo*/
+   display: block;
+   margin-bottom: 10px;
+   border: 1px solid #fff;
+   background-color: #ffffffc0;
+   padding: 10px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.job-descriptions input {/*76. stiliziramo*/
+    display: none;
+}
+
+.job-descriptions .job-description {/*77. stiliziramo*/
+    display: none;
+}
+
+.job-descriptions input:checked + .job-description {/*78. stiliziramo*/
+    display: block;
+}
+
+.job-description { /*79. stiliziramo i otvaramo html fajl*/
+    margin-left: 10px;
+    border: 1px solid #fff;
+    background-color: #ffffffc0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
