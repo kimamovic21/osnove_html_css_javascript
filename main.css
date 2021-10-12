@@ -1,10 +1,16 @@
+html {/*98. stiliziramo KRAJ */
+    scroll-behavior: smooth;
+}
+
 body { /*2. stiliziramo*/
     margin: 0px;
     padding: 0px;
+    font-family: calibri, sans-serif;
 }
 
  .header { /*19. stiliziramo i otvaramo html fajl*/
     border-bottom: 2px solid #dc0101;
+    background-color: #fefefe;
 }
 
 /*.page {
@@ -354,4 +360,81 @@ body { /*2. stiliziramo*/
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
+}
+
+#kontakt h2 {/*82.stiliziramo*/
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kontakt-region {/*83.stiliziramo*/
+    display: grid;
+    grid-template: "adrese mapa"
+                   "mejlovi mapa";
+    grid-template-columns: 300px 1fr;
+}
+
+.kontakt-adrese { /*84.stiliziramo i otvaramo html fajl*/
+    grid-area: adrese;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.kontakt-mejlovi {
+    grid-area: mejlovi;
+}
+
+.kontakt-mejlovi a {/*86. stiliziramo*/
+    text-decoration: none;
+    color: #dc0101;
+}
+
+.kontakt-mejlovi a:hover {/*87. stiliziramo i otvaramo html fajl*/
+    text-decoration: underline;
+}
+
+.kontakt-mapa {
+    grid-area: mapa;
+}
+
+.footer {/*89. stiliziramo i otvaramo html fajl*/
+    border-top:3px solid #dc0101;
+    background-color: #fefefe;
+    display: flex;
+}
+
+.footer .footer-column {/*91. stiliziramo*/
+    flex-grow:1;
+    flex-basis: 0;
+}
+
+.footer > .column {/*95. stiliziramo*/
+    display: flex;
+    flex-basis: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.align-left {/*92. stiliziramo*/
+    text-align: left;
+    margin-right: 300px;/*ovo sam ja dodao*/
+}
+
+.align-center {/*93. stiliziramo*/
+    text-align: center;
+}
+
+.align-right {/*94. stiliziramo*/
+    /* text-align: center; */
+    margin-left: 300px;/*ovo sam ja dodao*/
+}
+
+.red-link {/*96. stiliziramo*/
+    text-decoration: none;
+    color: #dc0101;
+}
+
+.red-link:hover {/*97. stiliziramo i skrolamo na pocetak css fajla*/
+    text-decoration: underline;
 }
