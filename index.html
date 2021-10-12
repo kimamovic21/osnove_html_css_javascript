@@ -34,11 +34,11 @@
            <nav id="main-menu"> <!--12. dodajemo element navigacioni meni i linkove-->
               <!--13. otvaramo css fajl-->
                 <a href="#" class="active">Pocetna</a> <!--17. dodajemo klasu-->
-                <a href="#">O nama</a>
-                <a href="#">Usluge</a>
-                <a href="#">Proizvodi</a>
-                <a href="#">Karijera</a>
-                <a href="#">Kontakt</a>
+                <a href="#o-nama">O nama</a>
+                <a href="#usluge">Usluge</a>
+                <a href="#proizvodi">Proizvodi</a>
+                <a href="#karijera">Karijera</a>
+                <a href="#kontakt">Kontakt</a>
            </nav>
          
         </div><!--column-->
@@ -318,7 +318,6 @@
                         </ul>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                              Aperiam, optio.</p>
-                        <!--81. otvaramo css fajl-->
                     </div><!--74. dodajemo value i otvaramo css fajl-->
                 </div>
             </div>
@@ -326,11 +325,74 @@
     </div>
 
     <div class="page" id="kontakt"><!--31. dodajemo id i otvaramo css fajl-->
-        <div class="column">7</div>
+        <div class="column"><!--81. dodajemo elemente i otvaramo css fajl-->
+            <h2>Kontakt</h2>
+            <div clas="kontakt-region">
+                <div class="kontakt-adrese">
+                    <strong>Sarajevo</strong><br>
+                    Sarajevska bb<br>
+                    71000 Sarajevo<br>
+                    Bosna i Hercegovina<br>
+                    <br>
+
+                    <strong>Tuzla</strong><br>
+                    Tuzlanska bb<br>
+                    75000 Tuzla<br>
+                    Bosna i Hercegovina<br>
+                    <br>
+
+                    <strong>Zenica</strong><br>
+                    Zenicka bb<br>
+                    72000 Sarajevo<br>
+                    Bosna i Hercegovina<br>
+                    <br>
+                </div>
+                <div class="kontakt-mejlovi"><!--85. dodajemo elemente i otvaramo css fajl-->
+                    <strong>Podrska</strong><br>
+                    <a href="mailto:podrska@rjesenja.org">podrska@rjesenja.org</a>
+                    <br>
+                    <strong>Prodaja</strong><br>
+                    <a href="mailto:prodaja@rjesenja.org">prodaja@rjesenja.org</a>
+                    <br>
+                    <strong>Posao</strong><br>
+                    <a href="mailto:podrska@rjesenja.org">posao@rjesenja.org</a>
+                    <br>
+                    <strong>Marketing</strong><br>
+                    <a href="mailto:podrska@rjesenja.org">marketing@rjesenja.org</a>
+                    <br>
+                </div>
+
+                <iframe class="kontakt-mapa" width="425" height="350" frameborder="0" 
+                        scrolling="no" marginheight="0" marginwidth="0" 
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=18.429801464080814%2C43.85921930046292%2C18.432794809341434%2C43.86038355225506&amp;layer=mapnik&amp;marker=43.859801429200786%2C18.43129813671112" 
+                        style="border: 1px solid black"></iframe>
+                        <!--88. dodajemo i otvaramo css fajl-->
+                        
+               
+            </div>
+        </div>
     </div>
 
-    <div class="footer">
-        <div class="column">8</div>
+    <div class="footer"> <!--90. dodajemo elemente i otvaramo css fajl-->
+        <div class="column">
+            <div class="footer-column align-left">
+                Sarajevska bb<br>
+                71000 Sarajevo<br>
+                Bosna i Hercegovina
+            </div>
+
+            <div class="footer-column align-center">
+                &copy: 2021<br>
+                Naj-naj IT rješenja<br>
+                www.rjesenja.org
+            </div>
+
+            <div class="footer-column align-right">
+                <a class="red-link" href="#o-nama">O nama</a><br>
+                <a class="red-link" href="#usluge">Usluge</a><br>
+                <a class="red-link" href="#karijera">Karijera</a>
+            </div>
+        </div>
     </div>
 
 </body>
