@@ -40,6 +40,12 @@ body { /*2. stiliziramo*/
     flex-grow: 1; /*zauzimat ce pola rasplozive sirine diva*/
 }
 
+#logo-holder img {/*ovo sam ja dodao*/
+    width: 250px; 
+    height: 80px;
+    background-size: cover;
+}
+
 #social-holder { /*9. stiliziramo i otvaramo html fajl*/
     flex-grow: 1;
     text-align: right;
